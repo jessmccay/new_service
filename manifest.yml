@@ -1,0 +1,8 @@
+---
+applications:
+- name: new_service
+  memory: 1G
+  instances: 1
+  random-route: true
+  buildpacks:
+  -https://github.com/cloudfoundry/java-buildpack.git
